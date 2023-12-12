@@ -6,7 +6,7 @@ public abstract class human {
 //    behaviors are no longer hidden in our human class
 //    Example of programming to an implementation
 //    Fly fly = new Fly();
-    
+
 //  Example of programming to an interface
     FlyBehaviour flyBehaviour;
     SwimBehanvior swimBehanvior;
