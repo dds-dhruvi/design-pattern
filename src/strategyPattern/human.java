@@ -1,4 +1,4 @@
-package src.intro;
+package src.strategyPattern;
 
 public abstract class human {
 //Program to an interface, not an implementation. we can use the flyBehaviour polymorphically.
@@ -18,11 +18,11 @@ public abstract class human {
     }
 
     public void swim(){
-        swimBehanvior.swim();
+        swimBehanvior.;
     }
 
     public void fly(){
-        flyBehaviour.fly();
+        flyBehaviour.ly();
     }
 
 }

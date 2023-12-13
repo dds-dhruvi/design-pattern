@@ -1,4 +1,4 @@
-package src.intro;
+package src.strategyPattern;
 
 public interface FlyBehaviour {
 //    flyBehaviour is an interface that all flying classes implement. All new flying classes

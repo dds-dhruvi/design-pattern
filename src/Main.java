@@ -1,6 +1,6 @@
 package src;
 
-import src.intro.Sara;
+import src.strategyPattern.Sara;
 
 public class Main {
     public static void main(String args[])  //static method
@@ -12,7 +12,7 @@ public class Main {
     public static void designPatternIntro(){
         Sara sara = new Sara();
         sara.display();
-        sara.swim();
         sara.fly();
+        sara.swim();
     }
 }

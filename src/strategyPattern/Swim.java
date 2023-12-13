@@ -1,4 +1,4 @@
-package src.intro;
+package src.strategyPattern;
 
 public class Swim implements SwimBehanvior{
     @Override
