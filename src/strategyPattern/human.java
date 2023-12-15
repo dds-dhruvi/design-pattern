@@ -18,11 +18,11 @@ public abstract class human {
     }
 
     public void swim(){
-        swimBehanvior.;
+        swimBehanvior.swim();
     }
 
     public void fly(){
-        flyBehaviour.ly();
+        flyBehaviour.fly();
     }
 
 }
