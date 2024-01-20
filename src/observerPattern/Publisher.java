@@ -3,7 +3,7 @@ package src.observerPattern;
 import java.util.ArrayList;
 
 public class Publisher implements Subject{
-    ArrayList<Observer> observer;
+    ArrayList<Observer> observers;
 
     public int getTemp() {
         return temp;
@@ -37,24 +37,24 @@ public class Publisher implements Subject{
     int humidity;
 
 
-    public void Publisher(){
-        this.observer = new ArrayList<Observer>();
+    public Publisher(){
+        this.observers = new ArrayList<Observer>();
     }
     @Override
     public void addObserver(Observer newObserver) {
-        observer.add(newObserver);
+        observers.add(newObserver);
 
     }
 
     @Override
     public void notifyObserver() {
-        for(Observer obs: observer){
+        for(Observer obs: observers){
             obs.update( temp, pressure, humidity);
         }
     }
 
     @Override
     public void removeOberver(Observer obs) {
-        observer.remove(obs);
+        observers.remove(obs);
     }
 }

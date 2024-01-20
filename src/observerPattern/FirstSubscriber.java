@@ -20,6 +20,6 @@ public class FirstSubscriber implements Observer{
     }
 
     public  void display(){
-        System.out.println("The temp is"+(this.temp) + "The humidity is" + this.humidity);
+        System.out.println("The temp is "+(this.temp) + "The humidity is " + this.humidity);
     }
 }
