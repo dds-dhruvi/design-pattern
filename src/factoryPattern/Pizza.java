@@ -5,6 +5,11 @@ public class Pizza {
     String name;
     String toppings;
 
+    Pizza(){
+        this.name = "";
+        this.toppings = "";
+    }
+
     void bake(){
         System.out.println("baking the pizza");
     }
